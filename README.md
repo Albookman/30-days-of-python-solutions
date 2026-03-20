@@ -15,7 +15,7 @@ Feel free to:
 
 | Day | Topic                          | Exercises                          | My Solution                       | Status          |
 |-----|--------------------------------|------------------------------------|-----------------------------------|-----------------|
-|01  | Introduction                   | [exercises.md](./day-01/exercises.md) | [solution.py](./day-01/solution.py) | <image-card alt="Done" src="https://img.shields.io/badge/Status-Done-brightgreen" ></image-card> |
+01 | Introduction | [exercises.md](./day-01/exercises.md) | [solution.py](./day-01/solution.py) | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
 | 02  | Variables, Built-in Functions  | —                                  | —                                 | Planned         |
 | 03  | Operators                      | —                                  | —                                 | Planned         |
 | 04  | Strings                        | —                                  | —                                 | Planned         |
