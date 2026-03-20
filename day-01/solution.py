@@ -1,42 +1,97 @@
 # =============================================================================
 # 30 Days of Python – Day 1: Introduction
-# My Solutions
-# Author: Alvaro Torres (@alvarotorresjr)
-# Date: March 2025
+# My Solutions + Comments
+# Author: Alvaro
+# Date: March 2026
 # =============================================================================
 
-# Level 1 - Operações básicas
+# ────────────────────────────────────────────────
+# Level 1
+# ────────────────────────────────────────────────
 
-print("Python version check:")
+# 1. Check the python version you are using
+print("Python version:")
 import sys
 print(sys.version)
-print()  # linha em branco para separar
+print()  # linha em branco para separar saídas
 
-print("Operações com 3 e 4:")
+# 2. Operations with operands 3 and 4
+print("Operations with 3 and 4:")
 a = 3
 b = 4
 
 print(f"Addition:       {a} + {b} = {a + b}")
 print(f"Subtraction:    {a} - {b} = {a - b}")
 print(f"Multiplication: {a} * {b} = {a * b}")
-print(f"Division:       {a} / {b} = {a / b}")
 print(f"Modulus:        {a} % {b} = {a % b}")
+print(f"Division:       {a} / {b} = {a / b}")
 print(f"Exponential:    {a} ** {b} = {a ** b}")
 print(f"Floor division: {a} // {b} = {a // b}")
+print()
 
-# Level 2 - Comentários e variáveis
-print("\nPython is easy to learn!")  # comentário inline
+# ────────────────────────────────────────────────
+# Level 2
+# ────────────────────────────────────────────────
 
-# Exemplos de tipos de dados
-nome = "Alvaro Torres"       # string
-idade = 60                   # integer
-altura = 1.89                # float
-complexo = 2 + 3j            # complex
-eh_programador = True        # boolean
+# 1. Comment saying python is easy to learn
+# Python is easy to learn!
 
-print("\nVariáveis declaradas:")
-print(f"nome: {nome} ({type(nome)})")
-print(f"idade: {idade} ({type(idade)})")
-print(f"altura: {altura} ({type(altura)})")
-print(f"complexo: {complexo} ({type(complexo)})")
-print(f"eh_programador: {eh_programador} ({type(eh_programador)})")
+# 2. Variables of different data types
+first_name = "Alvaro"              # string
+last_name = "Torres"               # string
+age = 60                           # integer
+height = 1.89                      # float (em metros)
+complex_number = 1 + 2j            # complex
+is_married = False                 # boolean
+is_true = True                     # boolean
+is_light_on = True                 # boolean
+
+print("Variables declared (Level 2):")
+print(f"first_name:     {first_name} ({type(first_name).__name__})")
+print(f"last_name:      {last_name} ({type(last_name).__name__})")
+print(f"age:            {age} ({type(age).__name__})")
+print(f"height:         {height} m ({type(height).__name__})")
+print(f"complex_number: {complex_number} ({type(complex_number).__name__})")
+print(f"is_married:     {is_married} ({type(is_married).__name__})")
+print(f"is_true:        {is_true} ({type(is_true).__name__})")
+print(f"is_light_on:    {is_light_on} ({type(is_light_on).__name__})")
+print()
+
+# Multiple variables on one line
+first_name, last_name, country, age_now, is_married_now, is_light_on_now = "Alvaro", "Torres", "Brazil", 60, False, True
+print("Multiple variables on one line:")
+print(f"{first_name} {last_name}, {country}, {age_now} anos, married? {is_married_now}")
+print()
+
+# ────────────────────────────────────────────────
+# Level 3
+# ────────────────────────────────────────────────
+
+# 1 & 2. Length of first_name and last_name + comparison
+len_first = len(first_name)
+len_last = len(last_name)
+
+print("Length of names:")
+print(f"Length of first name '{first_name}': {len_first}")
+print(f"Length of last name  '{last_name}':  {len_last}")
+print(f"First name longer than last name? {len_first > len_last}")
+print()
+
+# 3. More variables (já declarei acima, mas adicionando city e year como exemplo)
+city = "Ponta Grossa"
+current_year = 2026
+
+print("Additional variables:")
+print(f"city: {city}")
+print(f"current_year: {current_year}")
+print()
+
+# 4. Check types with type()
+print("Checking types with type():")
+print(f"type(first_name):     {type(first_name).__name__}")
+print(f"type(age):             {type(age).__name__}")
+print(f"type(height):          {type(height).__name__}")
+print(f"type(complex_number):  {type(complex_number).__name__}")
+print(f"type(is_married):      {type(is_married).__name__}")
+
+print("\nDay 1 completed! 🎉")
