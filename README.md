@@ -15,13 +15,27 @@ Feel free to:
 
 | Day | Topic                          | Exercises                          | My Solution                       | Status          |
 |-----|--------------------------------|------------------------------------|-----------------------------------|-----------------|
-| 01  | Introduction                   | [exercises.md](./day-01/exercises.md) | [solution.py](./day-01/solution.py) | ![Done](https://img.shields.io/badge/Status-Done-brightgreen) |
+| 01  | Introduction                   | [exercises.md](./day-01/exercises.md) | [solution.py](./day-01/solution.py) | <image-card alt="Done" src="https://img.shields.io/badge/Status-Done-brightgreen" ></image-card> |
 | 02  | Variables, Built-in Functions  | —                                  | —                                 | Planned         |
 | 03  | Operators                      | —                                  | —                                 | Planned         |
 | 04  | Strings                        | —                                  | —                                 | Planned         |
 | ... | ...                            | ...                                | ...                               | ...             |
 | 30  | (Final project / conclusion)   | —                                  | —                                 | Planned         |
 
-(Atualize a tabela conforme for avançando – badges via shields.io)
+<!-- Update the table as you progress – badges from shields.io -->
 
 ## Folder Structure
+
+<!-- Update this section every time you create a new day-XX folder -->
+
+
+## How to run the solutions
+
+1. Clone the repo:  
+   `git clone https://github.com/Albookman/30-days-of-python-solutions.git`
+2. Navigate to a day:  
+   `cd day-01`
+3. Run:  
+   `python solution.py`
+
+<!-- You can also run directly without changing directory: python day-01/solution.py -->
