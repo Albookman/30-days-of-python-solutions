@@ -47,6 +47,13 @@ is_true = True                     # boolean
 is_light_on = True                 # boolean
 
 print("Variables declared (Level 2):")
+
+# Cada linha usa uma f-string (f"...") para interpolar variáveis
+
+# O {variavel} insere o valor da variável
+
+# O {type(variavel).__name__} mostra o nome do tipo (ex.: str, int, float)
+
 print(f"first_name:     {first_name} ({type(first_name).__name__})")
 print(f"last_name:      {last_name} ({type(last_name).__name__})")
 print(f"age:            {age} ({type(age).__name__})")
@@ -56,6 +63,8 @@ print(f"is_married:     {is_married} ({type(is_married).__name__})")
 print(f"is_true:        {is_true} ({type(is_true).__name__})")
 print(f"is_light_on:    {is_light_on} ({type(is_light_on).__name__})")
 print()
+
+# Linha em branco no final apenas para separar visualmente a saída
 
 # Multiple variables on one line
 first_name, last_name, country, age_now, is_married_now, is_light_on_now = "Alvaro", "Torres", "Brazil", 60, False, True
