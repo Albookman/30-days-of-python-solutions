@@ -17,3 +17,6 @@ pip-delete-this-directory.txt
 # macOS / Windows junk
 .DS_Store
 Thumbs.db
+
+# pasta de revisão e reforços (não quero commitar)
+revisao/
